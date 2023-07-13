@@ -24,15 +24,16 @@ cnxn_str = ("Driver={ODBC Driver 18 for SQL Server};"
             "PWD=Password@123;")
 cnxn = pyodbc.connect(cnxn_str)
 
+
+
+if selected == "Material Handling Station":
+     st.title(f"you have selected {selected}")
+
 cursor = cnxn.cursor()
 
 cursor.execute("SELECT  * FROM Block_Details")
 
 data = pd.read_sql("SELECT  * FROM Block_Details", cnxn)
-
-
-if selected == "Material Handling Station":
-     st.title(f"you have selected {selected}")
 
 st.table(data)
 
