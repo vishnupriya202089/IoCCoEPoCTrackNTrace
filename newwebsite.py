@@ -18,10 +18,10 @@ with st.container():
 
 
 cnxn_str = ("Driver={ODBC Driver 18 for SQL Server};"
-            "Server=coepocsqlserver;"
+            "Server=tcp:coepocsqlserver.database.windows.net,1433;"
             "Database=coeqrappdb;"
             "UID=coepocadmin;"
-            "PWD=Password@123;")
+            "PWD={Password@123};")
 cnxn = pyodbc.connect(cnxn_str)
 
 
