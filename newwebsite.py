@@ -30,9 +30,6 @@ if selected == "Material Handling Station":
      st.title(f"you have selected {selected}")
 
 cursor = cnxn.cursor()
-
-cursor.execute("SELECT  * FROM Block_Details")
-
 data = pd.read_sql("SELECT  * FROM Block_Details", cnxn)
 
 st.table(data)
