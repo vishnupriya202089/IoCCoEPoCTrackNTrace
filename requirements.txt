@@ -2,3 +2,6 @@ streamlit
 streamlit-option-menu
 pyodbc
 pandas
+numpy
+cv2
+datetime
