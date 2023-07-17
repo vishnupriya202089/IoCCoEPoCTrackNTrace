@@ -4,4 +4,4 @@ pyodbc
 pandas
 numpy
 datetime
-opencv-python
+opencv-python-headless
