@@ -5,3 +5,4 @@ pandas
 numpy
 cv2
 datetime
+OpenCV-Python
