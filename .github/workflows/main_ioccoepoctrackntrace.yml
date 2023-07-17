@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'IoCCoEPoCTracknTrace'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A8A2014CC2C74F249D7573CD94F46D32 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9DD50A3DFC554CBCAA50284047C80164 }}
