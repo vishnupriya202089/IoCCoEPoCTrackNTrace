@@ -4,5 +4,4 @@ pyodbc
 pandas
 numpy
 datetime
-opencv-python
-libgl1
+python3-opencv
