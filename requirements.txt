@@ -5,3 +5,4 @@ pandas
 numpy
 datetime
 opencv-python
+libgl1
