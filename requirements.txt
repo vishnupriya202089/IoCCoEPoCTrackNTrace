@@ -6,3 +6,4 @@ numpy
 datetime
 opencv-python
 Pillow
+cv2
